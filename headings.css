@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #e74c3c;
+    font-size: 1.8em;
+}
+
+h3 {
+    color: #27ae60;
+    font-size: 1.4em;
+}
+
+h4 {
+    color: #f39c12;
+    font-size: 1.2em;
+}
+
+h2::before {
+    content: "📚 ";
+}
+
+h3::before {
+    content: "📖 ";
+}
+
+h4::before {
+    content: "🖼️ ";
+}
